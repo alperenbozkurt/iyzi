@@ -23,6 +23,9 @@ module Iyzi
 
     # REFUND
     REFUND                   = '/v2/payment/refund'.freeze
+    
+    # CANCEL
+    CANCEL                   = '/payment/cancel'.freeze
 
     # HTTP VERBS
     HTTP_POST    = 'post'.freeze
