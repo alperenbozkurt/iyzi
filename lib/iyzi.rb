@@ -23,6 +23,7 @@ require 'iyzi/pki_builders/bin_control'
 require 'iyzi/pki_builders/installment_info'
 require 'iyzi/pki_builders/threeds_initialize'
 require 'iyzi/pki_builders/threeds_payment_create'
+require 'iyzi/pki_builders/refund'
 
 # Requests
 require 'iyzi/request'
@@ -36,6 +37,7 @@ require 'iyzi/requests/bin_control'
 require 'iyzi/requests/installment_info'
 require 'iyzi/requests/threeds_initialize'
 require 'iyzi/requests/threeds_payment_create'
+require 'iyzi/requests/refund'
 
 # Misc
 require 'active_support/all'
