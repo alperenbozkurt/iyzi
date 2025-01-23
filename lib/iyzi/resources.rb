@@ -44,6 +44,10 @@ module Iyzi
       Requests::ThreedsPaymentCreate.new(options).response(&block)
     end
 
+    def refund(options, &block)
+      Requests::Refund.new(options).response(&block)
+    end
+
     def cancel(options, &block)
       Requests::Cancel.new(options).response(&block)
     end

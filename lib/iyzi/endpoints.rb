@@ -21,6 +21,9 @@ module Iyzi
     THREEDS_INITIALIZE       = '/payment/iyzipos/initialize3ds/ecom'.freeze
     THREEDS_PAYMENT_CREATE   = '/payment/iyzipos/auth3ds/ecom'.freeze
 
+    # REFUND
+    REFUND                   = '/v2/payment/refund'.freeze
+
     # CANCEL
     CANCEL                   = '/payment/cancel'.freeze
     
